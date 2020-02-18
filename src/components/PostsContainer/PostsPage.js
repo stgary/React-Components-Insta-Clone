@@ -13,7 +13,7 @@ const PostsPage = () => {
   return (
     <div className="posts-container-wrapper">
       {data.map(p => (
-        <Post props={p} />
+        <Post propsData={p} />
       ))}
     </div>
   );
